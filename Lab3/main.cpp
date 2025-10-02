@@ -25,7 +25,7 @@ printf( " got hit %i times! \n", p1.getHitsTaken());
 printf ("%s", p2.getName().c_str());
 printf( " got hit %i times! \n", p2.getHitsTaken());
 cout << "\nLets see who is still alive!\n";
-cout << "0 = dead and 1 = alive!\n";
+cout << "0 = dead and 1 = alive\n";
 printf( "is %s alive? ", p1.getName().c_str());
 cout<< p1.isAlive();
 cout << endl;

@@ -43,6 +43,13 @@ void RPG:: setHitsTaken(int new_hits){
     hits_taken = new_hits;
 }
 
-bool RPG:: isAlive() const{
-    return hits_taken < MAX_HITS_TAKEN;
+bool RPG:: isAlive() {
+    if( hits_taken < MAX_HITS_TAKEN)
+    {
+       return true;
+    }
+    else 
+    {
+        return false;
+    }
 }
